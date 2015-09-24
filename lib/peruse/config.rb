@@ -3,12 +3,9 @@ module Peruse
     attr_accessor :auth_token, :username, :password
 
     def initialize
-      @auth_token = nil
       @username = nil
       @password = nil
     end
-
-    private
 
   end
 end

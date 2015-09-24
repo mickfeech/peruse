@@ -1,7 +1,7 @@
 module Peruse
   # @author mickfeech
   # = Server
-  # The server class provides the framework for you to connect to a specified Plex Media Server
+  # The server class provides the interface to connect to a specified Plex Media Server
   class Server
     attr_reader :host, :port
 
