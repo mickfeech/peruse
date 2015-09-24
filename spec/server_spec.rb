@@ -1,8 +1,7 @@
 require 'peruse/server'
 
 describe Peruse::Server do
-  let(:server) { Peruse::Server.new('localhost', 32400)}
-
+  let(:server) { Peruse::Server.new('localhost', 32400) }
   it '.host' do
     expect(server.host).to eq 'localhost'
   end
