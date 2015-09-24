@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/mickfeech/peruse.svg?branch=master)](https://travis-ci.org/mickfeech/peruse)
 # Peruse
 
 Peruse is intended to give you an interface to the Plex Media Server and Plex.tv API for Ruby
