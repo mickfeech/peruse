@@ -1,4 +1,5 @@
 module Peruse
+  # @author mickfeech
   class Server
     attr_reader :host, :port
 
