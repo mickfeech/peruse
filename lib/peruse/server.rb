@@ -7,6 +7,7 @@ module Peruse
       @port = port
     end
 
+    # @private
     def url
       "http://#{host}:#{port}"
     end
