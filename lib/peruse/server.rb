@@ -7,7 +7,7 @@ module Peruse
       @port = port
     end
 
-    # @private
+    # Returns the URL endpoint to the plex media server
     def url
       "http://#{host}:#{port}"
     end
