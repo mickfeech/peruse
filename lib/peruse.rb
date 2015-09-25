@@ -1,18 +1,19 @@
 require 'peruse/version'
 
 module Peruse
+  @@auth_token = ''
 # Instantiates a Config instance once and returns it
   def self.config
     @config ||= Config.new
   end
 
-  # Allows the configuration of some Plex-internal settings. It yields a Config
-  # instance so a block can be used:
-  #
-  #    Plex.configure do |config|
-  #      config.username = "username-string"
-  #      config.password = "password-string"
-  #    end
+# Allows the configuration of some Plex-internal settings. It yields a Config
+# instance so a block can be used:
+#
+#    Plex.configure do |config|
+#      config.username = "username-string"
+#      config.password = "password-string"
+#    end
   def self.configure
     yield(config)
   end
