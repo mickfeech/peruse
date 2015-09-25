@@ -11,5 +11,6 @@ module Peruse
       @username = username
       @password = password
     end
+
   end
 end
