@@ -15,5 +15,9 @@ module Peruse
       @auth_token = plex_tv['user']['authentication_token']
     end
 
+    def friend
+      @friend ||= Plex::Friend.new(self)
+    end
+
   end
 end

@@ -1,7 +1,6 @@
 require 'peruse/version'
 
 module Peruse
-  @@auth_token = ''
 # Instantiates a Config instance once and returns it
   def self.config
     @config ||= Config.new
