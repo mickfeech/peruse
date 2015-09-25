@@ -10,7 +10,8 @@ module Peruse
   # instance so a block can be used:
   #
   #    Plex.configure do |config|
-  #      config.auth_token = "token-string"
+  #      config.username = "username-string"
+  #      config.password = "password-string"
   #    end
   def self.configure
     yield(config)
