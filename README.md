@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mickfeech/peruse.svg?branch=master)](https://travis-ci.org/mickfeech/peruse) [![Code Climate](https://codeclimate.com/github/mickfeech/peruse/badges/gpa.svg)](https://codeclimate.com/github/mickfeech/peruse)[![](https://img.shields.io/badge/documentation-100%25-brightgreen.svg)](http://www.rubydoc.info/github/mickfeech/peruse/master)|% of methods documented|
+[![Build Status](https://travis-ci.org/mickfeech/peruse.svg?branch=master)](https://travis-ci.org/mickfeech/peruse) [![Code Climate](https://codeclimate.com/github/mickfeech/peruse/badges/gpa.svg)](https://codeclimate.com/github/mickfeech/peruse)[![](https://img.shields.io/badge/documentation-100%25-brightgreen.svg)](http://www.rubydoc.info/github/mickfeech/peruse/master)
 # Peruse
 
 Peruse is intended to give you an interface to the Plex Media Server and Plex.tv API for Ruby
