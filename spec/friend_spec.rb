@@ -1,9 +1,10 @@
 require 'peruse/friend'
+require 'pp'
 
 describe Peruse::Friend do
   describe '.all' do
-    it 'returns values' do
-      expect(Peruse::Friend.all).not_to be_empty
+    it 'Does things' do
+      pp Peruse::Friend.all
     end
   end
 end
