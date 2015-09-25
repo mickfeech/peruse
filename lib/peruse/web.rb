@@ -5,8 +5,8 @@ module Peruse
   class Web
     attr_reader :username, :password
 
-    # @param [username] your plex.tv username
-    # @param [passowrd] your plex.tv password
+    # @param [username] username your plex.tv username
+    # @param [passowrd] password your plex.tv password
     def initialize(username, password)
       @username = username
       @password = password
