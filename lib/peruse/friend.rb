@@ -23,10 +23,7 @@ module Peruse
       web.password
     end
 
-    # @private
-    def url #:nodoc:
-      'https://plex.tv/pms/friends/all'
-    end
+
 
     # @private
     def username #:nodoc:
@@ -36,6 +33,11 @@ module Peruse
     private
     def xml_doc
       Nokogiri::XML(RestClient::Request.execute(method: :get, url: url, user: username, password: password, headers: {'X-Plex-Client-Identifier' => 'perusev0.9'}))
+    end
+
+    # @private
+    def url #:nodoc:
+      'https://plex.tv/pms/friends/all'
     end
 
   end
