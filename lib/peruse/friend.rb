@@ -6,6 +6,7 @@ module Peruse
       @web = web
     end
 
+
     # Array of users with email and username
     def all
       xml_doc.xpath('/MediaContainer/User').map {|n| [n['email'],n['username']] }
