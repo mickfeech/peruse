@@ -1,17 +1,16 @@
 module Peruse
   class Friend
     attr_accessor :web
+
     # @param [Web] web object
     def initialize(web)
       @web = web
     end
 
-
     # Returns an array of users with email and username
     def all
       xml_doc.xpath('/MediaContainer/User').map {|n| [n['email'],n['username']] }
     end
-
 
     # @private
     def auth_token #:nodoc:
