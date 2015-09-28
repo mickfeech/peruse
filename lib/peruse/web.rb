@@ -16,7 +16,7 @@ module Peruse
     end
 
     def friend
-      @friend ||= Plex::Friend.new(self)
+      @friend ||= Peruse::Friend.new(self)
     end
 
   end

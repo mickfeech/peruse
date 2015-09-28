@@ -18,6 +18,7 @@ module Peruse
   end
 end
 
+require 'nokogiri'
 require 'peruse/config'
 require 'peruse/friend'
 require 'peruse/library'

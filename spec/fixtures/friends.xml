@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MediaContainer friendlyName="myPlex" identifier="com.plexapp.plugins.myplex" machineIdentifier="f6b0cb367e6862ae24f6sdfsfasdfasdfasdf111545e08b57a20b28e7" totalSize="2" size="2">
-  <User id="5379283" title="user1" username="user2" email="user1@example.com" recommendationsPlaylistId="0a8db045ad844e7c" thumb="https://secure.gravatar.com/avatar/84167f10920c964b6f73e423a097b24b?d=https%3A%2F%2Fplex.tv%2Favatars%2FCC9476%2F42%2F1">
+  <User id="5379283" title="user1" username="user1" email="user1@example.com" recommendationsPlaylistId="0a8db045ad844e7c" thumb="https://secure.gravatar.com/avatar/84167f10920c964b6f73e423a097b24b?d=https%3A%2F%2Fplex.tv%2Favatars%2FCC9476%2F42%2F1">
     <Server id="38076sdfadfasdf51" serverId="38076sdfadfasdf51" machineIdentifier="f6b0cb367e6862ae24f6sdfsfasdfasdfasdf111545e08b57a20b28e7" name="plex" lastSeenAt="1443128602" numLibraries="3" owned="1"/>
   </User>
-  <User id="5474254" title="SeancePrime" username="SeancePrime" email="user2@example.com" recommendationsPlaylistId="e3d5b5029b765785" thumb="https://secure.gravatar.com/avatar/04ed2e30dc1e60445071a039c061b12d?d=https%3A%2F%2Fplex.tv%2Favatars%2F8C8165%2F53%2F1">
+  <User id="5474254" title="user2" username="user2" email="user2@example.com" recommendationsPlaylistId="e3d5b5029b765785" thumb="https://secure.gravatar.com/avatar/04ed2e30dc1e60445071a039c061b12d?d=https%3A%2F%2Fplex.tv%2Favatars%2F8C8165%2F53%2F1">
     <Server id="38076sdfadfasdf51" serverId="38076sdfadfasdf51" machineIdentifier="f6b0cb367e6862ae24f6sdfsfasdfasdfasdf111545e08b57a20b28e7" name="plex" lastSeenAt="1443128602" numLibraries="3" owned="1"/>
   </User>
 </MediaContainer>
